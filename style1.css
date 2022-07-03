@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Permanent+Marker&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Rubik+Moonrocks&family=Titan+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+@media screen and (min-width:400px)
+{
+.body{
+    display: flex;
+    width: 100vw;
+    
+}
+}
+.whitepaper{
+    background: white;
+    /* display: flex; */
+    width: 250mm;
+    height: 297mm;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.photo{
+    width: 40vw;
+    height: 70vw;
+    display: flex;
+    align-content: center;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding-right: 20vw;
+    justify-content: right;
+    margin-left: 300px;
+    position: absolute;
+    
+}
+.h1{
+    /* display: flex; */
+    text-align: center;
+    padding-top: 50vw;
+    margin-left: -300px;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Rubik Moonrocks', cursive;
+
+    font-family: 'Titan One', cursive;
+    color: transparent;
+        
+        animation: effect 2s linear infinite;
+        
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+
+
+}
+
+.h2{
+  
+    display: flex;
+    text-align: center;
+    
+    padding-top: 100px;
+    margin-left: -300px;
+    font-size: 0.5em;
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Rubik Moonrocks', cursive;
+    
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+            #008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+            #3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+    
+
+
+}
+#viewWork a{
+    text-decoration: none;
+    margin-right: 40vw;
+    text-decoration: none;
+    cursor: pointer;   
+    display: flex;
+    margin-top: 180px;
+   border: 1px solid black;
+   width: 80px;
+  text-align: center;
+
+}
